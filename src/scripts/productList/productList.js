@@ -85,7 +85,7 @@ jsonProducts.map((item) => {
   listItems.innerHTML += `
         <div class="item" data-typeCategory="${item.product_category}">
             <div class="image-post">
-              <a href="./single_post.html#${
+              <a href="./public/single_post.html#${
                 item.id
               }"><img src="${item.image_link}"  alt="image post"></a>
             </div>
