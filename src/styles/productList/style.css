@@ -1,0 +1,111 @@
+.product-list{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0 15px;
+    position: relative;
+    top: -230px;
+}
+.product-list .title-shop{
+    padding: 10px;
+    text-align: center;
+    background-color: #f5f6f6;
+}
+.product-list .title-shop p{font-size: small;}
+.product-list .title-shop a{
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+}
+.product-list .title-shop a:hover{
+    color: rgb(255, 77, 0);
+}
+
+.product-list .list-items{
+    display: flex;
+    gap: 17px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.product-list .list-items .item{
+    width: 18%;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 15px;
+    gap: 5px;
+}
+.product-list .item .titles-post{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 3px solid #ccc;
+    padding-top: 15px;
+}
+.product-list .item .star-description{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.product-list .item .description-post{
+    font-size: small;
+}
+.product-list .item .star-description .stars-post{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+.product-list .item .star-description .stars-post p{
+    font-size: 12px;
+}
+.product-list .item .price-post{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.product-list .item .price-post p:nth-child(1){
+    font-size: 14px;
+}
+.product-list .item .price-post p:nth-child(2){
+    font-size: 25px;
+    font-weight: bold;   
+}
+.product-list .item .price-post p:nth-child(3){
+    font-size: 14px;
+}
+
+.product-list .list-items .item .main-price{
+    text-decoration: line-through;
+    font-size: 16px;
+}
+.product-list .item .image-post{
+    width: 100%;
+}
+.product-list .item .image-post img{
+    width: 100%;
+    object-fit: cover;
+    min-height: 300px;
+}
+.product-list .item .link-post{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.product-list .item .link-post:hover{
+    color: orangered;
+    transform:translateY(-2px);
+}
+
+
+/* start Responsive */
+@media screen and (max-width: 600px){
+    .product-list .list-items .item{
+        width: 100%;
+    }
+    .product-list .title-shop{
+        font-size: 12px;
+    }
+}

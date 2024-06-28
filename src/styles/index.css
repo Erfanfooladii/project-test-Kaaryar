@@ -1,0 +1,56 @@
+@import url(./header/style.css);
+@import url(./slicerImage/style.css);
+@import url(./productList/style.css);
+@import url(./footer/style.css);
+/* start styles for single_post page */
+@import url(./styles_singlePostPage/descriptons/style.css);
+/* start styles for cart page */
+@import url(./cartPage/style.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(201, 201, 201);
+    position: relative;
+}
+input , button {
+    border: none;
+}
+.container{
+    max-width: 2500px;
+    margin: auto;
+}
+.padding-box{
+    height: 30%;
+}
+/* Typegraph */
+h1{
+    font-size:2.986rem;
+}
+h2{
+    font-size:2.488rem;
+}
+h3{
+    font-size:2.074rem;
+}
+h4{
+    font-size:1.728rem;
+}
+h5{
+    font-size:1.728rem;
+}
+h6{
+    font-size:1.2rem;
+}
+p{
+    font-size:1rem;
+}
+.samll{
+    font-size:0.833rem;
+}
+.x-small{
+    font-size:0.694rem;
+}
